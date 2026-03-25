@@ -10,3 +10,4 @@
 <img width="897" height="608" alt="Снимок экрана 2026-03-25 151817" src="https://github.com/user-attachments/assets/54371e6e-1c3a-47f4-ae36-31bc711a6019" />
 1.2.- 1.3. В паке res/drawable создайте два файла rectangle.xml и circle.xml. Заполните их содержимым, как показано в теоретической части.
 <img width="612" height="186" alt="Снимок экрана 2026-03-25 151516" src="https://github.com/user-attachments/assets/19c8cda6-116d-4b2a-9e89-e9bd235ecc40" />
+Задание 2. Работа с LinearLayout.
