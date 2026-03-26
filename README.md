@@ -21,3 +21,34 @@
  
  2.3. Запустите приложение и убедитесь, что фигуры отображаются вертикально.
 <img width="814" height="755" alt="Снимок экрана 2026-03-26 143321" src="https://github.com/user-attachments/assets/54c87677-ca2b-44c0-a2e8-b2af5297863a" />
+
+Задание 3. Изменение ориентации и выравнивания.
+
+3.1. Измените android:orientation на horizontal. Посмотрите, как изменится расположение.
+
+<img width="1024" height="863" alt="Снимок экрана 2026-03-26 144059" src="https://github.com/user-attachments/assets/384f9540-4b40-47e8-8362-5a1c4dba216f" />
+
+3.2. Добавьте к LinearLoyout атрибут android:layoutDirection="rtl". Запустите и посмотрите на расположение эдементов.
+
+<img width="995" height="850" alt="Снимок экрана 2026-03-26 144743" src="https://github.com/user-attachments/assets/28f40a57-7af9-465a-8e55-8715a67a6dbc" />
+
+3.3. Верните ориентацию на вертикальную и поэксперементируйте с android:graviry у родителя и android:layout_gravity у дочерних элементов. 
+
+<img width="1165" height="689" alt="Снимок экрана 2026-03-26 145218" src="https://github.com/user-attachments/assets/2d0e09a2-21b1-4ca5-b8e8-b15c604b3c46" />
+
+Задание 4. Работа с GridLayout.
+4.1. Создайте новый XML-файл разметки activity_grid.xml 
+
+4.2. Используйте Gird
+
+
+
+
+
+
+
+
+
+
+
+
