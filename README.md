@@ -305,6 +305,7 @@
     
 </LinearLayout>
 ```
+<img width="453" height="740" alt="Снимок экрана 2026-03-26 153824" src="https://github.com/user-attachments/assets/7af44e79-687c-4f6c-bf96-7541b1c40c20" />
 
 
 
