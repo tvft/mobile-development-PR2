@@ -5,7 +5,7 @@
 Изучить основы языка разметки XML для описания пользовательского интерфейса Android-приложений. Научиться использовать менеджеры размещения (контейнеры) LinearLayout и GridLayout для создания сложных экранов. Освоить основные атрибуты View и создание простых Drawable-ресурсов.
 
 # Ход работы 
-Задание 1. Создание проекта и подготовка ресурсов.
+# Задание 1. Создание проекта и подготовка ресурсов.
 
  1.1. Создайте новый проект с шаблоном Empty Views Activity. Назовите проект LayoutsLab.
 <img width="897" height="608" alt="Снимок экрана 2026-03-25 151817" src="https://github.com/user-attachments/assets/54371e6e-1c3a-47f4-ae36-31bc711a6019" />
@@ -13,7 +13,7 @@
  1.2.- 1.3. В паке res/drawable создайте два файла rectangle.xml и circle.xml. Заполните их содержимым, как показано в теоретической части.
 <img width="612" height="186" alt="Снимок экрана 2026-03-25 151516" src="https://github.com/user-attachments/assets/19c8cda6-116d-4b2a-9e89-e9bd235ecc40" />
 
-Задание 2. Работа с LinearLayout.
+# Задание 2. Работа с LinearLayout.
 
  2.1. Откройте файл activity_main.xml. 
  
@@ -22,7 +22,7 @@
  2.3. Запустите приложение и убедитесь, что фигуры отображаются вертикально.
 <img width="814" height="755" alt="Снимок экрана 2026-03-26 143321" src="https://github.com/user-attachments/assets/54c87677-ca2b-44c0-a2e8-b2af5297863a" />
 
-Задание 3. Изменение ориентации и выравнивания.
+# Задание 3. Изменение ориентации и выравнивания.
 
 3.1. Измените android:orientation на horizontal. Посмотрите, как изменится расположение.
 
@@ -36,11 +36,19 @@
 
 <img width="1165" height="689" alt="Снимок экрана 2026-03-26 145218" src="https://github.com/user-attachments/assets/2d0e09a2-21b1-4ca5-b8e8-b15c604b3c46" />
 
-Задание 4. Работа с GridLayout.
+# Задание 4. Работа с GridLayout.
 4.1. Создайте новый XML-файл разметки activity_grid.xml 
 
-4.2. Используйте Gird
-  
+4.2. Используйте GirdLayout для создания таблицы кнопок 3х3
+<img width="817" height="699" alt="Снимок экрана 2026-03-26 150015" src="https://github.com/user-attachments/assets/6c345e62-e377-4a76-8941-ac4a2ad244ef" />
+
+4.3. Создайте соответсвующую Activity и запустите её.
+
+<img width="462" height="707" alt="Снимок экрана 2026-03-26 150951" src="https://github.com/user-attachments/assets/ae3d5aa7-1f18-428c-b096-7fd74311bf6b" />
+
+# Задание 5. Объединение ячеек в GirdLayout
+Создайте разметку, аналогичную примеру из теории, где одна кнопка занимает две ячейки по горизонтали.
+<img width="502" height="802" alt="Снимок экрана 2026-03-26 151248" src="https://github.com/user-attachments/assets/e580f73b-6b77-49c8-b26a-3d5133609e1a" />
 
 
 
