@@ -6,12 +6,18 @@
 
 # Ход работы 
 Задание 1. Создание проекта и подготовка ресурсов.
+
  1.1. Создайте новый проект с шаблоном Empty Views Activity. Назовите проект LayoutsLab.
 <img width="897" height="608" alt="Снимок экрана 2026-03-25 151817" src="https://github.com/user-attachments/assets/54371e6e-1c3a-47f4-ae36-31bc711a6019" />
+
  1.2.- 1.3. В паке res/drawable создайте два файла rectangle.xml и circle.xml. Заполните их содержимым, как показано в теоретической части.
 <img width="612" height="186" alt="Снимок экрана 2026-03-25 151516" src="https://github.com/user-attachments/assets/19c8cda6-116d-4b2a-9e89-e9bd235ecc40" />
+
 Задание 2. Работа с LinearLayout.
+
  2.1. Откройте файл activity_main.xml. 
+ 
  2.2. Создайте веритикальный LinearLayout с тремя ImageView, отображающими созданные drawable-ресурсы.
+ 
  2.3. Запустите приложение и убедитесь, что фигуры отображаются вертикально.
 <img width="814" height="755" alt="Снимок экрана 2026-03-26 143321" src="https://github.com/user-attachments/assets/54c87677-ca2b-44c0-a2e8-b2af5297863a" />
