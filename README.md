@@ -307,7 +307,254 @@
 ```
 <img width="453" height="740" alt="Снимок экрана 2026-03-26 153824" src="https://github.com/user-attachments/assets/7af44e79-687c-4f6c-bf96-7541b1c40c20" />
 
+Часть2. Задание по варианту.
+Используя менеджеры размещения LinearLayout и/или GridLayout, создайте указанную композицию из кнопок. Для вариантов 1-7 используйте соответсвующие рисунки из исходного документа (Рисунки 9-15). Для враинтов 8-10 создайте буквы из кнопок. Вариант 3. 
 
+```java
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+    
+    <!-- Дисплей -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#FFFFFF"
+        android:text="0"
+        android:textSize="36sp"
+        android:gravity="end|center_vertical"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+    
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="4"
+        android:rowCount="6"
+        android:padding="4dp">
+        
+        <!-- Строка 1: C CE % √ -->
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="C"
+            android:background="#E0E0E0"/>
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="CE"
+            android:background="#E0E0E0"/>
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="%"
+            android:background="#E0E0E0"/>
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="√"
+            android:background="#E0E0E0"/>
+        
+        <!-- Строка 2: 7 8 9 / -->
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="7"
+            android:textSize="24sp"/>
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="8"
+            android:textSize="24sp"/>
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="9"
+            android:textSize="24sp"/>
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="/"
+            android:textSize="24sp"
+            android:background="#FF9800"/>
+        
+        <!-- Строка 3: 4 5 6 * -->
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="4"
+            android:textSize="24sp"/>
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="5"
+            android:textSize="24sp"/>
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="6"
+            android:textSize="24sp"/>
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="*"
+            android:textSize="24sp"
+            android:background="#FF9800"/>
+        
+        <!-- Строка 4: 1 2 3 - -->
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="1"
+            android:textSize="24sp"/>
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="2"
+            android:textSize="24sp"/>
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="3"
+            android:textSize="24sp"/>
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="-"
+            android:textSize="24sp"
+            android:background="#FF9800"/>
+        
+        <!-- Строка 5: 0 00 . + -->
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="0"
+            android:textSize="24sp"/>
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="00"
+            android:textSize="24sp"/>
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="."
+            android:textSize="24sp"/>
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="+"
+            android:textSize="24sp"
+            android:background="#FF9800"/>
+        
+        <!-- Строка 6: = (занимает 2 колонки) -->
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="2"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:text="="
+            android:textSize="24sp"
+            android:background="#4CAF50"
+            android:layout_columnSpan="2"/>
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:layout_gravity="fill"/>
+        
+    </GridLayout>
+    
+</LinearLayout>
+```
+
+<img width="412" height="686" alt="Снимок экрана 2026-03-26 154658" src="https://github.com/user-attachments/assets/c6f78d44-53db-43cf-a444-d7f0c51264be" />
+
+# Контрольные вопросы
 
 
 
